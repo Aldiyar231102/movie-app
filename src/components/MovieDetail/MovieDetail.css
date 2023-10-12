@@ -1,0 +1,79 @@
+.container {
+  background-color: rgba(79, 79, 79);
+}
+
+.movieInfoBlock {
+  width: 850px;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #393939;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.imageBlock {
+  margin-right: 30px;
+}
+
+.movieTitle {
+  color: white;
+}
+
+.movieOverview {
+  width: 500px;
+  font-size: 19px;
+  color: white;
+}
+
+.movieRating {
+  color: white;
+  font-size: 20px;
+}
+
+.movieTime {
+  color: white;
+  font-size: 20px;
+}
+
+.castBlock {
+  margin-top: 20px;
+}
+
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.actorItem {
+  width: 19%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.castTitle {
+    color: white;
+    font-size: 34px;
+}
+
+.actorImage {
+  border-radius: 25px;
+  max-width: 100%;
+  height: auto;
+}
+
+.actorName {
+  color: white;
+  margin-top: 5px;
+}
+
+.characterName {
+  color: white;
+}
